@@ -21,7 +21,13 @@ namespace PaintAppMVC.Controllers
         // GET: Paints
         public async Task<IActionResult> Index()
         {
-              return _context.Paint != null ? 
+            //var pgData = _context.PaintGroup.AsQueryable();
+            foreach(Paint p in _context.Paint)
+            {
+                p.PaintGroupName = _context.PaintGroup.Where(pg => pg.PaintGroupId == p.GroupId).FirstOrDefault().PaintGroupName.ToString();
+            }
+
+            return _context.Paint != null ? 
                           View(await _context.Paint.ToListAsync()) :
                           Problem("Entity set 'PaintContext.PaintItems'  is null.");
         }
@@ -40,6 +46,8 @@ namespace PaintAppMVC.Controllers
             {
                 return NotFound();
             }
+
+            paint.PaintGroupName = _context.PaintGroup.Where(pg => pg.PaintGroupId == paint.GroupId).FirstOrDefault().PaintGroupName.ToString();
 
             return View(paint);
         }

@@ -11,6 +11,7 @@ GO
 CREATE TABLE [dbo].[Paint](
 	[PaintId] [uniqueidentifier] NOT NULL DEFAULT NEWID(),
 	[GroupId] [uniqueidentifier] NULL,
+	[PaintFriendlyId] [int] NOT NULL IDENTITY(1,1), 
 	[PaintName] [nvarchar](max) NULL,
 	[PaintSize] [int] NULL,
 	[StockImageURL] [nvarchar](max) NULL,

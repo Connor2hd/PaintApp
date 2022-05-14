@@ -529,11 +529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppModels\\PaintAppModels\\PaintAppModels.csproj",
+      "projectUniqueName": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppModels\\PaintAppModels\\PaintAppModels.csproj",
       "projectName": "PaintAppModels",
-      "projectPath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppModels\\PaintAppModels\\PaintAppModels.csproj",
+      "projectPath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppModels\\PaintAppModels\\PaintAppModels.csproj",
       "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppModels\\PaintAppModels\\obj\\",
+      "outputPath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppModels\\PaintAppModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Connor\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,3 +10,14 @@ C:\Users\Connor\source\repos\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\ne
 C:\Users\Connor\source\repos\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\ref\PaintAppModels.dll
 C:\Users\Connor\source\repos\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.pdb
 C:\Users\Connor\source\repos\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.csproj.AssemblyReference.cache
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\bin\Debug\net6.0\PaintAppModels.deps.json
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\bin\Debug\net6.0\PaintAppModels.dll
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\bin\Debug\net6.0\ref\PaintAppModels.dll
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\bin\Debug\net6.0\PaintAppModels.pdb
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.AssemblyInfoInputs.cache
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.AssemblyInfo.cs
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.csproj.CoreCompileInputs.cache
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.dll
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\ref\PaintAppModels.dll
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.pdb

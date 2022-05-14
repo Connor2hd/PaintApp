@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.GroupId)
+                Paint Group
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.PaintName)
@@ -28,13 +28,14 @@
                 @Html.DisplayNameFor(model => model.MSRP)
             </th>
             <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.GroupId)
+                @Html.DisplayFor(modelItem => item.PaintGroupName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PaintName)
@@ -48,6 +49,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.MSRP)
             </td>
+            <td><img src="/images/@item.StockImageURL" width="50" /></td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.PaintId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.PaintId">Details</a> |
