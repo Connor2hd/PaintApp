@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29560942-a704-4c73-8d3a-53739ec7d500": {
+      "ProjectGuid": "29560942-a704-4c73-8d3a-53739ec7d500",
+      "DisplayName": "PaintAppAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
