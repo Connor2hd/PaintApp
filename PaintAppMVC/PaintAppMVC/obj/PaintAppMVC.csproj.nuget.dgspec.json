@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj": {}
+    "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj": {
+    "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj",
         "projectName": "PaintAppMVC",
-        "projectPath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj",
+        "projectPath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppMVC\\PaintAppMVC\\PaintAppMVC.csproj",
         "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppMVC\\PaintAppMVC\\obj\\",
+        "outputPath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppMVC\\PaintAppMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Connor\\AppData\\Roaming\\NuGet\\NuGet.Config",

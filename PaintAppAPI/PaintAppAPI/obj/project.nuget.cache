@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nXLO0GXKK4qhKCpmx5ofv7Bx46MHBBp3LriiSheUpopsO1Ft0QBrMhWrmJXZuMBmNvh8anH8VhcHmnuPl7CIBw==",
+  "dgSpecHash": "1zTC40XboDWQneIyHvLDHL4MeH6vPVD8H4TAQFDIdvqw7u7Lw2OoA1gA3FExczO3ydkLQzykNKLft54xD0l70g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj",
+  "projectFilePath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Connor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Connor\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

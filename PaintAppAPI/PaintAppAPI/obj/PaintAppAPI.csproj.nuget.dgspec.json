@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj": {}
+    "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj": {
+    "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj",
         "projectName": "PaintAppAPI",
-        "projectPath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj",
+        "projectPath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppAPI\\PaintAppAPI\\PaintAppAPI.csproj",
         "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Connor\\source\\repos\\PaintApp\\PaintAppAPI\\PaintAppAPI\\obj\\",
+        "outputPath": "C:\\Users\\Connor\\Documents\\GitHub\\PaintApp\\PaintApp\\PaintAppAPI\\PaintAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Connor\\AppData\\Roaming\\NuGet\\NuGet.Config",

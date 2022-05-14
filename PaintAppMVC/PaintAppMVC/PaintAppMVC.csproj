@@ -18,13 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="PaintAppModels">
-      <HintPath>..\..\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.dll</HintPath>
-    </Reference>
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Reference Include="PaintAppModels">
+      <HintPath>..\..\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
