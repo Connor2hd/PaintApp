@@ -272,4 +272,5 @@ C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\Paint
 C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\PaintAppMVC\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\PaintAppMVC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\PaintAppMVC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\PaintAppMVC\obj\Debug\net6.0\PaintAppMVC.csproj.AssemblyReference.cache
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\PaintAppMVC\bin\Debug\net6.0\SendGrid.dll
+C:\Users\Connor\Documents\GitHub\PaintApp\PaintApp\PaintAppMVC\PaintAppMVC\PaintAppMVC\bin\Debug\net6.0\StarkbankEcdsa.dll
