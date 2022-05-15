@@ -7,6 +7,7 @@ namespace PaintAppModels
         public Guid UserPaintId { get; set; }
         public Guid UserId { get; set; }
         public Guid PaintId { get; set; }
+        public Guid GroupId { get; set; }
         public DateTime DateCreated { get; set; }
         [NotMapped]
         public string UserName { get; set; }

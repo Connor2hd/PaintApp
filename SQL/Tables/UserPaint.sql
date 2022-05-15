@@ -12,6 +12,7 @@ CREATE TABLE [dbo].[UserPaint](
 	[UserPaintId] [uniqueidentifier] NOT NULL DEFAULT NEWID(),
 	[UserId] [uniqueidentifier] NULL,
 	[PaintId] [uniqueidentifier] NULL,
+	[GroupId] [uniqueidentifier] NULL,
 	[DateCreated] [datetime] NULL DEFAULT GETDATE(),
  CONSTRAINT [PK_UserPaint] PRIMARY KEY CLUSTERED 
 (

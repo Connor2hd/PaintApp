@@ -21,4 +21,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="PaintAppModels">
+      <HintPath>..\..\..\PaintAppModels\PaintAppModels\obj\Debug\net6.0\PaintAppModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -5,57 +5,59 @@
 }
 
 <h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Paint Group
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PaintName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PaintSize)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StockImageURL)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MSRP)
-            </th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.PaintGroupName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PaintName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PaintSize)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StockImageURL)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MSRP)
-            </td>
-            <td><img src="/images/@item.StockImageURL" width="50" /></td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PaintId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PaintId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PaintId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<form method="post" asp-controller="Paints" asp-action="Save">
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Paint Group
+                </th>
+                <th>
+                    Paint Name
+                </th>
+                <th>
+                    Size
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MSRP)
+                </th>
+                <th></th>
+                <th></th>
+                <th>In Collection</th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaintGroupName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaintName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaintSize)ml
+                </td>
+                <td>
+                    $@Html.DisplayFor(modelItem => item.MSRP) CAD
+                </td>
+                <td><img src="/images/@item.StockImageURL" width="50" /></td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PaintId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.PaintId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PaintId">Delete</a>
+                </td>
+                <td>
+                    <input type="checkbox" value="@item.PaintId" checked="@item.InCollection" name="collectionIds">
+                    <input type="hidden" value="@item.GroupId" name="groupIds">
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+    @*<a asp-action="Save" asp-route-id="ids">Save</a>*@
+    <button type="submit" value="Submit">Save</button>
+</form>

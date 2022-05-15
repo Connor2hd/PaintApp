@@ -13,5 +13,8 @@ namespace PaintAppModels
 
         [NotMapped]
         public string PaintGroupName { get; set; }
+
+        [NotMapped]
+        public bool InCollection { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -24,7 +25,10 @@ namespace PaintAppMVC.Controllers
             //var pgData = _context.PaintGroup.AsQueryable();
             foreach(Paint p in _context.Paint)
             {
+                //Retrieves the paint group name as the paints table only contains the group ip
                 p.PaintGroupName = _context.PaintGroup.Where(pg => pg.PaintGroupId == p.GroupId).FirstOrDefault().PaintGroupName.ToString();
+                //Retrieves a bool value that is true if the paint exists in the users collection (UserPaint table)
+                p.InCollection = _context.UserPaint.Where(up => up.UserId == new Guid(User.FindFirstValue(ClaimTypes.NameIdentifier))).Where(up => up.PaintId == p.PaintId).FirstOrDefault() != null;
             }
 
             return _context.Paint != null ? 
@@ -142,6 +146,31 @@ namespace PaintAppMVC.Controllers
             }
 
             return View(paint);
+        }
+
+        [HttpPost, ActionName("Save")]
+        public async Task<IActionResult> Save(string[] collectionIds, string[] groupIds)
+        {
+            //Currently a single save action will only deal with 1 paint group at a time
+            Guid paintGroupId = new Guid(groupIds[0]);
+            Guid userId = new Guid(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            //Remove all paints from the current paint group and user
+            _context.UserPaint.RemoveRange(_context.UserPaint.Where(x => x.GroupId == paintGroupId).Where(x => x.UserId == userId));
+
+            //Add paints that match the checked IDs
+            foreach(string item in collectionIds)
+            {
+                UserPaint newPaint = new UserPaint();
+                newPaint.GroupId = paintGroupId;
+                newPaint.UserId = userId;
+                newPaint.PaintId = new Guid(item);
+                newPaint.DateCreated = DateTime.Now;
+                _context.UserPaint.Add(newPaint);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // POST: Paints/Delete/5

@@ -11,34 +11,28 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GroupId)
+            Paint Group
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GroupId)
+            @Html.DisplayFor(model => model.PaintGroupName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PaintName)
+            Paint Name
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PaintName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PaintSize)
+            Size
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PaintSize)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StockImageURL)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.StockImageURL)
+            @Html.DisplayFor(model => model.PaintSize)ml
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.MSRP)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MSRP)
+            $@Html.DisplayFor(model => model.MSRP) CAD
         </dd>
     </dl>
 </div>
