@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a4083e1-b728-455b-a51d-0b40c20a4164": {
+      "ProjectGuid": "8a4083e1-b728-455b-a51d-0b40c20a4164",
+      "DisplayName": "PaintAppMVC",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

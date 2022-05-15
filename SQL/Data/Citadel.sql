@@ -160,4 +160,4 @@ VALUES
 (@LayerId, 'Brass Scorpion', 12, 'Citadel/Layer/BrassScorpion.svg', 5.40),
 (@LayerId, 'Sycorax Bronze', 12, 'Citadel/Layer/SycoraxBronze.svg', 5.40),
 (@LayerId, 'Castellax Bronze', 12, 'Citadel/Layer/CastellaxBronze.svg', 5.40),
-(@LayerId, 'Canoptek Alloy', 12, 'Citadel/Layer/CanoptekAlloy.svg', 5.40),
+(@LayerId, 'Canoptek Alloy', 12, 'Citadel/Layer/CanoptekAlloy.svg', 5.40)
