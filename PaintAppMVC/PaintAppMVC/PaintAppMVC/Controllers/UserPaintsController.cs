@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -21,8 +22,11 @@ namespace PaintAppMVC.Controllers
         // GET: UserPaints
         public async Task<IActionResult> Index()
         {
-              return _context.UserPaint != null ? 
-                          View(await _context.UserPaint.ToListAsync()) :
+            //Filter by currently logged in user
+            Guid userId = new Guid(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            return _context.UserPaint.Where(up => up.UserId == userId) != null ? 
+                          View(await _context.UserPaint.Where(up => up.UserId == userId).ToListAsync()) :
                           Problem("Entity set 'PaintContext.UserPaint'  is null.");
         }
 

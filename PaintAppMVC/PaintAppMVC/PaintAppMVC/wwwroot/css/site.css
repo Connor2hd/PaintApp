@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+input[type=checkbox] {
+    transform: scale(3);
+    padding-top: 20px;
+    margin-top: 20px;
+}

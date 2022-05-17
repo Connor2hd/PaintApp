@@ -5,6 +5,11 @@
       "ProjectGuid": "8a4083e1-b728-455b-a51d-0b40c20a4164",
       "DisplayName": "PaintAppMVC",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
